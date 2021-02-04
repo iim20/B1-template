@@ -209,6 +209,8 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-between;
 }
 
 .description{
