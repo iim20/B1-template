@@ -69,6 +69,21 @@ h2{
 main{
   padding: 1em;
 }
+article table{
+    border: none;
+
+}
+.table{
+    border-left: none;
+}
+
+h2.line{
+  border-left: 5px solid #27AE60;
+  text-align: start;
+  margin-bottom: 25px;
+  padding: 0 0 0 8px;
+}
+
 
 table{
   margin-top: 1em;
@@ -85,12 +100,17 @@ table thead, table tbody{
 }
 
 table th.slim{
-  width: 100px;
+  width: 200px;
 }
 
 table tfoot{
   font-weight: bold;
 }
+
+table td.slim-2{
+  width: 10%;
+}
+
 
 /*Ticket #4 - horizantale van maken*/
 
