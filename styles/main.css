@@ -148,6 +148,12 @@ article h2.open-forever{
   text-align: center;
 }
 
+/*Ticket #11 hyperlinks naar cart*/
+.emphasize a{
+  text-decoration: none;
+  color: black;
+}
+
 .product{
   margin-right: 1em;
   padding: 1em;
