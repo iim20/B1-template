@@ -84,7 +84,6 @@ h2.line{
   padding: 0 0 0 8px;
 }
 
-
 table{
   margin-top: 1em;
   width: 100%;
@@ -110,12 +109,11 @@ table tfoot{
 table td.slim-2{
   width: 10%;
 }
-/*Ticket  #13 - hyperlink naar payment*/
+
 .table a{
   text-decoration: none;
   color: #303030;
 }
-/*Ticket #4 - horizantale van maken*/
 
 .row{
   display: flex;
@@ -157,8 +155,6 @@ article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
 }
 
-/*Ticket #6 - Article(emphasize) styling*/
-
 .emphasize{
   border-left: 5px solid #27AE60;
   box-shadow: 1px 0 5px #27ae60;
@@ -171,7 +167,6 @@ article h2.open-forever{
   text-align: center;
 }
 
-/*Ticket #11 hyperlinks naar cart*/
 .emphasize a{
   text-decoration: none;
   color: #303030;
@@ -207,6 +202,10 @@ button{
   cursor: pointer;
 }
 
+button:focus{
+  outline: none;
+}
+
 .payment-option{
   height: 64px;
 }
@@ -218,6 +217,19 @@ button{
 
 .description{
   flex: 1;
+}
+
+.developer-mok{
+  border-left: none;
+}
+
+.developer-mok p{
+  margin: 0 auto;
+}
+
+.developer-mok a{
+  text-decoration: none;
+  color: #303030; 
 }
 
 footer{
