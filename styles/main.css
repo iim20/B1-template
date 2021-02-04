@@ -110,8 +110,11 @@ table tfoot{
 table td.slim-2{
   width: 10%;
 }
-
-
+/*Ticket  #13 - hyperlink naar payment*/
+.table a{
+  text-decoration: none;
+  color: #303030;
+}
 /*Ticket #4 - horizantale van maken*/
 
 .row{
@@ -171,7 +174,7 @@ article h2.open-forever{
 /*Ticket #11 hyperlinks naar cart*/
 .emphasize a{
   text-decoration: none;
-  color: black;
+  color: #303030;
 }
 
 .product{
